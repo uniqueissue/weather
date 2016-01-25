@@ -10,10 +10,7 @@ $(function() {
     
     // Put your code here. Don't change any other code in this file. You will be sad.
     var markup="Today's weather is " + data.currently.summary +  " and the current temperature is " +data.currently.apparentTemperature + " in " + data.timezone + ". " + data.daily.summary
-
-
     // End of your code. No, really. Don't change anything below this, or above line 11.
-
     // Takes the contents of the "markup" variable (which should contain HTML) 
     // and write it out to the page.
     $('.weather-report').html(markup);
